@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <CheckBox android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/enableBtn" android:text="@string/Enable"></CheckBox>
+ <!--    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1"> -->
+<!--          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="20"></TextView>
+-->
+        <CheckBox android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/startUpBtn" android:text="@string/StartupOnboot"></CheckBox>
+<!--    </LinearLayout> -->
+        <CheckBox android:text="@string/ManerMode" android:id="@+id/ManerBox1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:text="@string/Description_Lbl" android:layout_width="fill_parent"></TextView>
+    <EditText android:id="@+id/editText1" android:inputType="textMultiLine" android:layout_gravity="top" android:editable="false" android:enabled="false" android:text="@string/Description" android:gravity="top|left" android:textSize="15px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <requestFocus></requestFocus>
+    </EditText>
+     <Button android:text="Android Market" android:id="@+id/button1" android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent"></Button>
+
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent"  android:text="@string/CopyRight" android:textSize="15px"  android:gravity="center|bottom" android:layout_height="fill_parent"></TextView>
+
+</LinearLayout>

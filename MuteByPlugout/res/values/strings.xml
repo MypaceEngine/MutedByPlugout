@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+  <string name="app_name">MutedByPlugOut</string>
+  <string name="jackooutMain">External audio output is disabled.</string>
+  <string name="jackoutSub">Audio output is muted.</string><string name="jackoutSub2">Audio output is muted.</string>
+  <string name="jackinMain">External audio output is enabled.</string>
+  <string name="jackinSub">Audio output is on.</string>
+  <string name="jackinSub2">Audio output is on.</string><string name="Enable">enable</string><string name="StartupOnboot">This system will be started on system boot. </string>
+  <string name="Description">MutedByPlugOut is a audio control system. If the plug of headphone is unplugged suddenly or Bluetooth headphone connection is lost, this system will set to mute. \nIf you want to enable MutedByPlugOut, please select [Enable]. If you use Bluetooth headphone at system starting time, Bluetooth headphone connection will be reconnecting.\nIf wish to start MutedByPlugOut on Android system boot, please select [This system will be started on system boot.].</string>
+  <string name="Description_Lbl">What is MutedByPlugOut.</string>
+  <string name="service_Start">Starting MutedByPlugOut...</string>
+  <string name="CopyRight">Copyright (C) 2012 MypaceEngine All Rights Reserved.</string>
+  <string name="ManerMode">Only available when the silent mode</string>
+  <string name="ManerMgs">Currently is not silent mode.</string>
+  
+  
+      
+  
+  
+  
+  
+</resources>

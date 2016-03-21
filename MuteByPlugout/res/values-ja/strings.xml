@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">MutedByPlugOut</string>
+  <string name="jackooutMain">外部音声出力が無効です。</string>
+  <string name="jackoutSub">音声出力はミュート状態です。</string>
+  <string name="jackoutSub2">音声出力はミュート状態になります。</string><string name="jackinMain">外部音声出力が有効です。</string>
+  <string name="jackinSub">音声出力はON状態です。</string><string name="jackinSub2">音声出力はON状態になります。</string>
+  <string name="Enable">有効</string><string name="StartupOnboot">システム起動時にMutedByPlugOutも起動する</string>
+  <string name="Description">MutedByPlugOutは外部音声機器への音声出力が無効になったときに自動的に音声出力をミュートにするソフトウェアです。\n\n下記のようなパターンに対応しています。\n・有線ヘッドホンのジャックが抜け落ちた\n・Bluetoothヘッドホンとの接続が切れた\n\n[有効]をチェックすることにより、MutedByPlugOutサービスが起動します。起動時にBlueToothヘッドホンを使っていた場合は一時的に接続が切れます。\n[システム起動時にMutedByPlugOutも起動する]を選択すれば、端末の起動時にMutedByPlugOutサービスも起動します。</string>
+  <string name="Description_Lbl">MutedByPlugOutとは</string>
+  <string name="service_Start">MutedByPlugOutが起動しました</string>
+  <string name="CopyRight">Copyright (C) 2012 MypaceEngine All Rights Reserved.</string>
+  <string name="ManerMode">マナーモードのときのみ、ミュートにする</string>
+  <string name="ManerMgs">マナーモードではありません。</string>
+
+
+
+
+
+
+
+</resources>
